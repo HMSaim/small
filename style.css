@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+h2{
+    padding: 2vw;
+    font-size: 2vw;
+    color: rgb(43, 42, 42);
+}
+#p{
+    font-size: 1.5vw;
+    padding: 2vw;
+
+}
+#p span{
+    color: rgb(144, 233, 233);
+    font-style: bold;
+font-weight: 600;
+}
+#pet{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border-radius: 15px;
+   
+       height: 400px;
+       width: 300px;
+       overflow: hidden;
+       margin: 10px;
+   box-shadow: 2px 5px 10px black;
+   }
+   img{
+       width: 100%;
+   object-fit: cover;
+   object-position: center;
+   
+   }
+   .card:hover{
+   
+       box-shadow: 4px 8px 18px;
+   }
+   
+   h5{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    padding: 1vw 5vw;
+   }.card .des{
+     font-size: 2vw;
+   padding:1vw 2vw;
+   }
+   .des p{
+    font-size: 1.7vw;
+   }
+   @media (max-width:400px) {
+    #pet{
+        flex-wrap: wrap;
+    }
+    h5{
+        font-size: 6vw;
+        padding: 3vw 8vw;
+       }.card .des{
+         font-size: 5.5vw;
+       padding:2vw 4vw;
+       }
+       .des p{
+        font-size: 5vw;
+       }
+       h2{
+        padding: 3vw;
+        font-size: 7vw;
+        color: rgb(43, 42, 42);
+    }
+    #p{
+        font-size: 5vw;
+        padding: 4vw;
+    
+    }
+    #p span{
+        color: rgb(144, 233, 233);
+        font-style: bold;
+    font-weight: 600;
+    }
+   }
